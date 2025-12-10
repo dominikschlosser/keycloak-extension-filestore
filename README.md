@@ -12,3 +12,13 @@ To use this, you most likely have to implement your own `DatastoreProvider` and 
 # Caveats
 
 This extension currently does NOT support Keycloak Organizations and thus must be run with the corresponding feature flag turned off.
+
+## Maven Coordinates
+
+```xml
+<dependency>
+    <groupId>de.arbeitsagentur.opdt</groupId>
+    <artifactId>keycloak-extension-filestore</artifactId>
+    <version>1.0.0</version> <!-- Replace with the latest version -->
+</dependency>
+```
